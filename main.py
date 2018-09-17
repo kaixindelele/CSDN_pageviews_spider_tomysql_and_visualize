@@ -7,6 +7,7 @@ Created on Mon Sep 03 20:18:56 2018
 #从spider文件夹导入这些模块
 #需要去notouch_spider.py文件中修改你的账号，以及在涉及到MySQL的文件中，改你的数据库信息
 #在这个文件，需要修改你的最大页面数字last_page
+#刚开始不需要id.txt的，会自己生成的
 from spider import set_class, set_insert2mysql, log_id, plot_time_total_views
 import os
 import time
