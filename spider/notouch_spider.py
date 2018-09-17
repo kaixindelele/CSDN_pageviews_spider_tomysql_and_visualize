@@ -110,8 +110,8 @@ def get_list(now_page,last_page):
     return blog_id_list,blog_url_list,title_list,page_view_list,create_time_list,blog_list,total_views
 
 if __name__ == '__main__':
-    print "---------*提取网页信息：博客id、URL、浏览量和标题*---------"
-    blog_id_list,blog_url_list,title_list,page_view_list,create_time_list,blog_list = get_list(1,1)
+    print "---------*get page*---------"
+    blog_id_list,blog_url_list,title_list,page_view_list,create_time_list,blog_list,total_views = get_list(1,1)
 
 #    for i in blog_id_list:
 #        print type(i)
