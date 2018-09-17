@@ -137,16 +137,6 @@ def plot3bar(increment):
 
 if __name__ == '__main__':
     plot3bar(increment = 0)
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+      
     
     
