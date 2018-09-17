@@ -4,7 +4,7 @@ Created on Mon Sep 03 20:18:56 2018
 
 @author: lenovo
 """
-from src import set_class, set_insert2mysql, log_id, plot_time_total_views
+from spider import set_class, set_insert2mysql, log_id, plot_time_total_views
 import os
 import time
 
