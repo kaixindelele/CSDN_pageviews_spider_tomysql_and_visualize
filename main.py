@@ -4,6 +4,9 @@ Created on Mon Sep 03 20:18:56 2018
 
 @author: lenovo
 """
+#从spider文件夹导入这些模块
+#需要去notouch_spider.py文件中修改你的账号，以及在涉及到MySQL的文件中，改你的数据库信息
+#在这个文件，需要修改你的最大页面数字last_page
 from spider import set_class, set_insert2mysql, log_id, plot_time_total_views
 import os
 import time
@@ -21,6 +24,7 @@ except Exception,e:
     print "从现在开始获取数据"
     
     
+
 while(1):
     blog_set = set_class.Blog_set(id = id,now_page=1,last_page=2)
     set_insert2mysql.set_main(blog_set.id,blog_set.get_time,blog_set.blogs_num,blog_set.total_views)
